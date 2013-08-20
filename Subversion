@@ -6,3 +6,19 @@ atividades também é utilizado. Entretanto, a cada release gerado, além da tag
 criada. Assim, tem-se no trunk a última versão de desenvolvimento e, em branches separados, cada uma das versões 
 implantadas em ambientes diversos. Neste fluxo, sempre se espera que todas as revisões do trunk anteriores ao release 
 façam parte deste, não havendo seleção de revisões na concepção de releases.
+
+Boas práticas:
+
+-Toda revisão deve ser comentada para facilitar o entendimento das alterações realizadas.
+-O código no trunk deve sempre estar pronto para ser compilado e colocado em produção se necessário. 
+-É dever de cada programador assegurar que seus commits não causem a quebra do build. 
+-As alterações em um código-fonte devem ser submetidas ao repositório o mais rápido possível. Para tal, é recomendável a 
+divisão das implementações em pequenos pacotes compiláveis e funcionais.
+-Toda a quebra de build deve ser tratada com máxima prioridade no sentido de sua correção. 
+-Caso um build esteja quebrado, não se deve submeter alterações ao repositório até que o build seja novamente compilável. 
+Isso assegura que todos os que realizarem updates terão sempre uma versão compilável e funcional oriunda do repositório.
+-O projeto no repositório deve conter quaisquer componentes e ferramentas necessárias para o funcionamento da aplicação 
+na máquina do desenvolvedor.
+-Evitar o envio de alterações próximo do fim do expediente. Caso haja algum problema com o commit realizado, poderá não 
+haver tempo para corrigi-lo naquele dia e o build poderá ficar quebrado por um longo período.
+-Todo e qualquer backup de versões deve ser mantido no repositório, preferencialmente como uma tag.
