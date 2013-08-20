@@ -1,0 +1,8 @@
+Fluxo básico da atuação em projeto fechado
+
+Quando em atuação em projetos fechados de customização a um cliente, tem-se comumente uma única versão da aplicação em 
+produção, além de outras em ambientes diversos, como por exemplo homologação e testes. Neste caso, o fluxo básico de 
+atividades também é utilizado. Entretanto, a cada release gerado, além da tag é criado um branch que representa a versão
+criada. Assim, tem-se no trunk a última versão de desenvolvimento e, em branches separados, cada uma das versões 
+implantadas em ambientes diversos. Neste fluxo, sempre se espera que todas as revisões do trunk anteriores ao release 
+façam parte deste, não havendo seleção de revisões na concepção de releases.
