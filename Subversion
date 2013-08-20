@@ -6,3 +6,28 @@ atividades também é utilizado. Entretanto, a cada release gerado, além da tag
 criada. Assim, tem-se no trunk a última versão de desenvolvimento e, em branches separados, cada uma das versões 
 implantadas em ambientes diversos. Neste fluxo, sempre se espera que todas as revisões do trunk anteriores ao release 
 façam parte deste, não havendo seleção de revisões na concepção de releases.
+
+Termos e conceitos básicos
+
+Repositório:
+É o local aonde estão todos os arquivos do projeto. É armazenado no banco de dados do SVN.
+Working Copy:
+Uma cópia de trabalho local na qual o desenvolvedor atua. É criada sempre que é feito checkout de algum projeto.
+Checkout:
+Download de um projeto para a máquina local, de modo que seus arquivos estejam ligados ao SVN. O projeto que será feito
+o checkout deve existir no repositório.
+Import:
+Envio dos arquivos de um novo projeto para o repositório. Após o import, obrigatoriamente um checkout deve ser feito 
+para que a working copy seja ligada ao SVN.
+Export:
+Ato de adquirir um projeto do repositório sem vinculação ao SVN.
+Commit:
+Ato de envio das modificações realizadas localmente para o servidor SVN.
+Update:
+Ato de obtenção das atualizações presentes do servidor SVN, atualizando a cópia local
+Revision:
+Número que identifica cada uma das alterações ou conjunto de alterações realizadas em um repositório. 
+Esse número é obtido a partir de uma sequência que é compartilhada por todos os diretórios do repositório.
+HEAD:
+É a revisão mais recente do repositório
+
