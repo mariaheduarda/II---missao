@@ -1,0 +1,4 @@
+Trunk
+O trunk sempre representa a última versão de desenvolvimento disponível. Onde ocorre a integração do projeto a partir de
+builds automatizados e é onde a versão funcional mais recente deve estar presente. É do trunk também que os branches e
+tags devem ser gerados (embora branches possam ser gerados de tags e outros branches sem restrições técnicas). 
