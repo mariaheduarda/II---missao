@@ -1,6 +1,0 @@
-Fluxo básico de atividades
-
-No repositório consiste na utilização do trunk como ponto principal de checkout para o desenvolvimento. Entretanto, 
-quaisquer tarefas que possam causar grande impacto no trunk devem ser realizadas em um branch separado, o qual receberá
-as alterações do trunk ao longo do dia ou ao fim do dia para que este seja mantido atualizado. Geração de backup da 
-versão do trunk para marcação de um ponto de restauro rápido antes do início dos branches a partir da opção Branch/Tag.
