@@ -6,3 +6,15 @@ atividades também é utilizado. Entretanto, a cada release gerado, além da tag
 criada. Assim, tem-se no trunk a última versão de desenvolvimento e, em branches separados, cada uma das versões 
 implantadas em ambientes diversos. Neste fluxo, sempre se espera que todas as revisões do trunk anteriores ao release 
 façam parte deste, não havendo seleção de revisões na concepção de releases.
+
+Introdução:
+
+Controle de versão é a arte de gerenciar mudanças em informações. Para programadores, 
+é um paradigma obrigatório a ser seguido para assegurar a saúde do código-fonte,
+ainda mais em grandes equipes atuando cada qual em partes distintas de um projeto. 
+O Subversion, ou simplesmente SVN, é uma ferramenta de controle de versão muito poderosa que permite,
+além do desenvolvimento colaborativo a partir de um repositório único, merge de conteúdo, 
+armazenamento de logs e geração de estatísticas diversas.
+Atuando como a máquina do tempo do desenvolvedor, ferramentas com o SVN permitem retornar o código a um estado anterior,
+facilitando a análise implementações realizadas e a mesclagem de implementações distintas de períodos 
+diferentes para a criação de uma única versão.
