@@ -22,3 +22,10 @@ na máquina do desenvolvedor.
 -Evitar o envio de alterações próximo do fim do expediente. Caso haja algum problema com o commit realizado, poderá não 
 haver tempo para corrigi-lo naquele dia e o build poderá ficar quebrado por um longo período.
 -Todo e qualquer backup de versões deve ser mantido no repositório, preferencialmente como uma tag.
+
+Fluxo básico de atividades
+
+No repositório consiste na utilização do trunk como ponto principal de checkout para o desenvolvimento. Entretanto, 
+quaisquer tarefas que possam causar grande impacto no trunk devem ser realizadas em um branch separado, o qual receberá
+as alterações do trunk ao longo do dia ou ao fim do dia para que este seja mantido atualizado. Geração de backup da 
+versão do trunk para marcação de um ponto de restauro rápido antes do início dos branches a partir da opção Branch/Tag.
